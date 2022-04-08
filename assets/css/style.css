@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.flex__direction{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+}
+
+.parte__1{
+    width: 40%;
+}
+
+.login__home{
+    background-color: #8fd400;
+   /* height:510px; */
+   padding: 61px;
+}
+
+.parte__2{
+    width: 60%;
+    background-image: url(../images/bg_login.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 49%;
+}
+
+.logo-login img{
+    width: 100%;
+}
+
+.login-image{
+    background-color: #8fd400;
+}
+
+.login-image img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+
+form input{
+    display: block;
+    width: 92%;
+    padding: 10px;
+    border-left: 4px solid #444;
+    margin: 10px auto;
+}
+
+form input[type=submit]{
+    width: 50%;
+    background-color: #0f3063;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    margin: 40px auto;
+}
+
+
+/* painel */
+
+.info-empresa{
+    width: 92%;
+    margin: 0 4%;
+    background-color: #3673cf;
+    padding: 10px;
+    color: white;
+}
+
+.box-content{
+    width: 500px !important;
+    margin:  40px auto;
+}
